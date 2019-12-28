@@ -80,7 +80,7 @@ hr {
    Wrap Sections
    ========================================================================== */
 .text-share {
-  font-size: 32px;
+  font-size: 24px;
 }
 .text-twitter {
   color: #1da1f2;
@@ -111,6 +111,7 @@ hr {
 }
 
 .lowtriangle {
+  color: #FFF;
   position: absolute;
   bottom: 0;
   left: 50%;
