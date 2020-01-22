@@ -28,6 +28,7 @@ h6 {
   font-family: "Raleway";
   font-weight: 300;
   color: #333;
+  margin: 0;
 }
 
 /* Paragraph & Typographic */
@@ -133,7 +134,7 @@ hr {
 
 #headerwrap h1 {
   color: white;
-  font-size: 120px;
+  font-size: 80px;
   color: #fff;
   font-weight: 1000;
   text-stroke: 3px #900;
@@ -156,29 +157,57 @@ hr {
   -webkit-text-stroke: 1px #900;
 }
 
+#headerwrap h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#headerwrap h5 {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.page-dark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba( 0, 0, 0, 0.5);
+}
+
 /* intro Wrap */
-#intro {
+#dealer {
   color: white;
   background-image: url(../img/img-description.JPG);
   background-size: cover;
   background-position: center center;
 }
 
-#intro h1 {
+#dealer h1 {
   color: white;
   padding-top: 0px;
 }
 
-#intro h2 {
+#dealer h2 {
   color: white;
+  font-size: 30px;
+  font-weight: 200;
 }
 
-#intro h3 {
+#dealer h3 {
   color: white;
+  font-size: 25px;
+  font-weight: 200;
   padding-top: 30px;
 }
 
-#intro p {
+#dealer p {
   color: white;
   padding-top: 20px;
   margin-bottom: 0px;
