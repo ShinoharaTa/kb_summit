@@ -97,6 +97,20 @@ hr {
   color: #1da1f2;
 }
 
+.bg-twitter {
+  background-color: #1da1f2;
+}
+.bg-facebook {
+  background-color: #1778f2;
+}
+.bg-reddit {
+  background-color: #ff4500;
+}
+.bg-hatena {
+  background-color: #1da1f2;
+}
+
+
 .page {
   position: relative;
   height: 100vh;
